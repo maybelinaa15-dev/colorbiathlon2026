@@ -270,7 +270,7 @@ export default function App() {
                 initial={{ opacity: 0, scale: 0.8, y: 20 }}
                 animate={{ opacity: 1, scale: 1, y: 0 }}
                 transition={{ delay: 0.1, duration: 0.8 }}
-                src="/img/colorbi.png"
+                src="img/colorbi.png"
                 alt="Color Biathlon 2026 Logo"
                 className="w-full max-w-3xl h-auto mb-8 drop-shadow-2xl"
               />
@@ -422,7 +422,7 @@ export default function App() {
               <div className="relative">
                 <div className="aspect-square bg-slate-100 rounded-[3rem] overflow-hidden shadow-2xl relative group">
                   <img
-                    src="/children_holi_fun_1777772870614.png"
+                    src="children_holi_fun_1777772870614.png"
                     alt="Niños divirtiéndose con colores"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -490,11 +490,11 @@ export default function App() {
             <div class="mt-16 text-center">
               <p class="text-blue-300 font-bold mb-6 tracking-widest uppercase">Marcas Aliadas</p>
               <div className="flex justify-center items-center gap-8 flex-wrap">
-                <div className="w-64 h-64 rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
-                  <img src="/img/SERVICIOS_POLEO.png" alt="Servicios Poleo" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
-                </div>
+                <a href="https://www.sepolca.com" target="_blank" rel="noreferrer" className="w-64 h-64 rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/SERVICIOS_POLEO.png" alt="Servicios Poleo" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </a>
                 <div className="w-64 h-64  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
-                  <img src="/img/radum.png" alt="Radum" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                  <img src="img/radum.png" alt="Radum" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
                 </div>
                 <div className="w-32 h-16 bg-blue-800/30 rounded-lg flex items-center justify-center text-sm text-blue-300 font-bold opacity-50">LOGO AQUÍ</div>
                 <div className="w-32 h-16 bg-blue-800/30 rounded-lg flex items-center justify-center text-sm text-blue-300 font-bold opacity-50">LOGO AQUÍ</div>
@@ -529,7 +529,7 @@ export default function App() {
       <footer className="py-4 bg-slate-50 border-t border-slate-50 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-4">
-            <img src="/img/qsi.png" alt="QSI Logo" className="h-16 w-auto" />
+            <img src="img/qsi.png" alt="QSI Logo" className="h-16 w-auto" />
           </div>
           <div className="flex flex-col text-center">
             <p className="text-gray-400 text-sm">© 2026 Color Biathlon. Todos los derechos reservados.</p>

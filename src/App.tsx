@@ -301,15 +301,20 @@ export default function App() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 bg-white px-6 py-4 rounded-2xl shadow-sm border border-slate-100">
+                <a
+                  href="https://maps.app.goo.gl/PtNc7Yqn9WVAbXQw5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 bg-white px-6 py-4 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow"
+                >
                   <div className="w-12 h-12 rounded-full bg-holi-green/10 flex items-center justify-center text-holi-green">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div className="text-left">
                     <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Lugar</p>
-                    <p className="font-display font-bold text-lg">QSI International School</p>
+                    <p className="font-display font-bold text-lg">QSI International School of El Tigre</p>
                   </div>
-                </div>
+                </a>
               </motion.div>
 
               <motion.div
@@ -482,7 +487,7 @@ export default function App() {
 
               <p class="text-sm text-blue-200 italic mb-8">*Recibimos todo el material publicitario que tengas disponible para impulsar tu marca el día del evento.</p>
 
-              <a href="#contacto" class="inline-block bg-white text-blue-900 font-black px-10 py-4 rounded-full text-lg hover:bg-yellow-400 hover:text-blue-900 transition shadow-xl">
+              <a href="https://wa.me/+584147745993" class="inline-block bg-white text-blue-900 font-black px-10 py-4 rounded-full text-lg hover:bg-yellow-400 hover:text-blue-900 transition shadow-xl">
                 ¡Quiero Patrocinar!
               </a>
             </div>
@@ -496,8 +501,65 @@ export default function App() {
                 <div className="w-64 h-64  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
                   <img src="img/radum.png" alt="Radum" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
                 </div>
-                <div className="w-32 h-16 bg-blue-800/30 rounded-lg flex items-center justify-center text-sm text-blue-300 font-bold opacity-50">LOGO AQUÍ</div>
-                <div className="w-32 h-16 bg-blue-800/30 rounded-lg flex items-center justify-center text-sm text-blue-300 font-bold opacity-50">LOGO AQUÍ</div>
+                <a href="https://www.saviaflowers.com" target="_blank" rel="noreferrer" className="w-56 h-56 rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/savia.svg" alt="Savia Flowers" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </a>
+                <div className="w-64 h-64  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/pepe.png" alt="Bodedon de Pepe" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-8 flex-wrap">
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/degustos.png" alt="Degustos" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/fleteando.png" alt="Fleteando" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/rianda.png" alt="Rianda" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/sercolenca.jpeg" alt="Serconleca" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-8 flex-wrap">
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/tigres.png" alt="Savia" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/velanmax.png" alt="Radum" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/labolivera.png" alt="Savia" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/sermapaca.png" alt="Savia" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-8 flex-wrap">
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/trudy.png" alt="Trudy" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/agrodelca.png" alt="Agrodelca" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/tracoserga.png" alt="Tracoserga" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+              </div>
+              <div className="flex justify-center items-center gap-8 flex-wrap">
+                <a href="https://saber-energia.com/" target="_blank" rel="noreferrer" className="w-56 h-56 rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/saber.webp" alt="Saber energia" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </a>
+                <a href="https://electronicalagloria.com/" target="_blank" rel="noreferrer" className="w-64 h-64 rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/lagloria.webp" alt="Electronica La Gloria" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </a>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/savinerca.png" alt="Savinerca" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
+                <div className="w-56 h-56  rounded-lg flex items-center justify-center p-2 group hover:bg-white/20 transition-all">
+                  <img src="img/gp.png" alt="GP Servicios Integrales" className="max-w-full max-h-full object-contain opacity-90 group-hover:opacity-100 transition-opacity" />
+                </div>
               </div>
             </div>
           </div>
@@ -513,7 +575,7 @@ export default function App() {
 
             <div className="flex flex-col md:flex-row gap-6 justify-center">
               <a
-                href="https://wa.me/your-number"
+                href="https://wa.me/+584147745993"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-3 bg-white text-holi-magenta px-10 py-5 rounded-2xl font-black text-xl shadow-xl hover:scale-105 transition-all"
@@ -538,7 +600,12 @@ export default function App() {
             {/* <a href="#" className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center text-slate-600 hover:text-holi-magenta transition-colors">
               <Camera className="w-5 h-5" />
             </a> */}
-            <a href="#" className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center text-slate-600 hover:text-holi-magenta transition-colors">
+            <a
+              href="https://maps.app.goo.gl/PtNc7Yqn9WVAbXQw5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-white shadow-sm flex items-center justify-center text-slate-600 hover:text-holi-magenta transition-colors"
+            >
               <MapPin className="w-5 h-5" />
             </a>
           </div>
@@ -547,7 +614,7 @@ export default function App() {
 
       {/* Floating WhatsApp Button */}
       <motion.a
-        href="https://wa.me/your-number"
+        href="https://wa.me/+584147745993"
         target="_blank"
         rel="noreferrer"
         initial={{ scale: 0, opacity: 0 }}
